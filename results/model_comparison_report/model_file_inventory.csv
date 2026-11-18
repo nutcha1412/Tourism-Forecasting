@@ -1,0 +1,7 @@
+Model,File,Loaded,Trainable parameters,Note
+Single LSTM,outputs/tourism_lstm.pt,True,50497,โหลด checkpoint ได้; จำนวนพารามิเตอร์นับจาก tensors ใน state_dict
+Single Transformer + LSTM,transformer_lstm_results/transformer_lstm_Paris.pth,True,102337,โหลด checkpoint ได้; จำนวนพารามิเตอร์นับจาก tensors ใน state_dict
+Global LSTM,global_lstm_results/global_lstm.pth,True,50753,โหลด checkpoint ได้; จำนวนพารามิเตอร์นับจาก tensors ใน state_dict
+Global Transformer + LSTM,global_transformer_lstm_results/global_transformer_lstm_final.pth,True,168065,โหลด checkpoint ได้; จำนวนพารามิเตอร์นับจาก tensors ใน state_dict
+Single XGBoost,xgboost_results/xgboost_Paris.joblib,True,4656,โหลด XGBoost ได้; ค่าในคอลัมน์พารามิเตอร์คือจำนวน tree nodes ไม่ใช่ neural parameters
+Global XGBoost,global_xgboost_results/global_xgboost.joblib,True,2459,โหลด XGBoost ได้; ค่าในคอลัมน์พารามิเตอร์คือจำนวน tree nodes ไม่ใช่ neural parameters
